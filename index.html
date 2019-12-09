@@ -65,8 +65,16 @@
                     guess = [];
                     
                 }
-    
                 
+                var html = 
+                "<h1> The Psychic Game </h1>" +
+                "<p> Guess what letter I'm thinking of!! </p>" +
+                "<p> Wins: </p>" + wins
+                "<p> Losses: </p>" + losses
+                "<p> Guesses Left: </p>" + guesses
+                "<p> Your Guesses so far: </p>" guess.join
+    
+                document.querySelector("#game").innerHTML = html;
                 
                 }
             };
